@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo|Raleway');
+[class*="col-"] {
+  float:left;
+  min-height: 1px;
+}
+ /*For mobile phones */
+
+  @media only screen and (max-width: 767px) {
+    [class*="col-"] {
+      width: 100%;
+      }
+    }
+
+  @media only screen and (min-width: 600px) {
+    /* For desktop: */
+    .col-1 {width: 14.28%;}
+    .col-2 {width: 28.57%;}
+    .col-3 {width: 42.85%;}
+    .col-4 {width: 57.13%;}
+    .col-5 {width: 71.41%;}
+    .col-6 {width: 85.69%;}
+    .col-7 {width: 100%;}
+  }
+
+body {
+    /* background-image: linear-gradient(to right, #dff9fb, #F8EFBA); */
+    background-image: linear-gradient(to right, #3D649B, #304586);
+    font-family: 'Raleway', serif;
+}
+h1,h2 {
+  font-family: 'Chivo', sans-serif;
+  color: #9FBCDB;
+}
+header h1 {
+  text-align: center;
+  color: #9FBCDB;
+}
+
+header input[type="text"]{
+  border-radius: .5em;
+  font-size: 2em;
+  text-align: center;
+}
+header input[type="text"]:focus {
+  outline: none;
+}
+main h2{
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap
+  /* max-width: 100%; */
+  margin: 0 auto;
+}
+article {
+  margin: 0 5px;
+  text-align: center;
+  /* background-color: #509BCC; */
+  /* background-color: #83b9d7; */
+  background-color: #9FBCDB;
+}
+.banner {
+  width: 75%;
+  margin: 4% 10% 5% 10%;
+}
+img.resize {
+  max-width: 100%;
+  max-height: 5%;
+}
+
+.text-wrapper {
+  width: 100%;
+  position: relative;
+  margin-top: -35%;
+}
+
+.text-wrapper h1 {
+  text-align: center;
+  color: #9FBCDB;
+  font-size: 10vw;
+  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+  -webkit-font-smoothing: antialiased;
+}
+#location {
+  text-align: center;
+  color: #9FBCDB;
+}
+
+
+#button{
+display: inline-block;
+background-color:#477998;
+color:#ffffff;
+border-radius: 5px;
+text-align:center;
+margin-top:2px;
+padding: 5px 15px;
+}
